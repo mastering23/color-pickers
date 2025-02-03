@@ -1,8 +1,14 @@
 
 const ColorBtn = () => {
 
-return <button> RANDOM COLOR </button>;
+return <button onClick={randomColor}> RANDOM COLOR </button>;
 
+}
+
+
+
+const randomColor = () =>{
+ return console.log("TESTING");
 }
 
 
