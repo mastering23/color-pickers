@@ -8,10 +8,10 @@ const App = () => {
 
   return (
     <>
-     <h1>TESTING RANDOM COLORS</h1>
+     <h1 id="heading" >TESTING RANDOM COLORS</h1>
+     {<hr></hr>}
      <BtnColor />
-     <BtnColor />
-     <BtnColor />
+ 
     </>
   );
 }
